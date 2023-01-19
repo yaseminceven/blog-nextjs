@@ -16,9 +16,14 @@ function Header() {
           <span>BLOG</span>
         </Link>
         <nav>
-          <Link href="https://github.com/yaseminceven" target="_blank">
-            About
-          </Link>
+            <Link href="/about" classname={styles.about}>
+              About
+            </Link>
+        </nav>
+        <nav>
+            <Link href="https://github.com/yaseminceven" target="_blank" classname={styles.about}>
+              Github
+            </Link>
         </nav>
       </header>
     );
